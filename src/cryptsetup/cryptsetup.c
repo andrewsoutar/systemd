@@ -56,7 +56,7 @@ static bool arg_tcrypt_veracrypt = false;
 static char **arg_tcrypt_keyfiles = NULL;
 static uint64_t arg_offset = 0;
 static uint64_t arg_skip = 0;
-static usec_t arg_timeout = 0;
+static usec_t arg_timeout = USEC_INFINITY;
 
 /* Options Debian's crypttab knows we don't:
 
